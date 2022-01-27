@@ -1,0 +1,37 @@
+body {
+  background-color: #3494e6;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+.login {
+  background: #add8e6ef;
+  border-radius: 5px;
+  border: 0.5px solid black;
+  padding: 2rem;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  display: grid;
+  grid-gap: 0.5rem;
+  justify-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.login__text-field {
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #d1c7c7c5;
+}
+
+.login__button-submit {
+  margin: 5px;
+}
